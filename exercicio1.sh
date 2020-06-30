@@ -1,2 +1,4 @@
 
-# Vou ter muito sucesso na programação!
+
+#!/usr/bin/bash
+# Eu sou Tryber e...
