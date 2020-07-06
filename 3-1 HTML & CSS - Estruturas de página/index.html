@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <title>Meu Portfólio Web</title>
+  <style>
+
+    body {
+        font-family: 'Montserrat';font-size: 18px;
+    }
+
+    .centralizar {
+	      width: 960px;
+	      margin: 0 auto;
+        display:flex;
+    }
+
+    h1 {
+      background-color: #0fa36b;
+      color: #fff;
+    }
+
+    h2 {
+      color: #0a7e51;
+    }
+
+    h3 {
+      color: #0a7e51;
+    }
+
+    .sobre {
+      width: 45%;
+    }
+
+    .foto {
+      float: right;
+      width: 55%;
+    }
+
+    .navegue {
+      font-size: 15px;
+      margin: 15px;
+    }
+
+    .sem_marcador {
+      list-style-type: none;
+    }
+
+    img {
+      border-radius: 5%;
+    }
+
+    </style>
+</head>
+<body>
+
+  <div class="centralizar">
+    <h1>Meu Portfólio Web</h1>
+  </div>
+
+  <div class="centralizar">
+    <div class="sobre">
+      <h2>Sobre mim</h2>
+      <p>Me chamo <strong>Anderson Moreira Alves</strong>, sou <em>brasileiro</em>, moro em <em>Salvador/BA</em> e atualmente sou aluno da Trybe.</p> 
+      <p class="navegue">Navegue por aqui: <a href="#pontos">pontos fortes</a>, <a href="#sites">sites que acesso</a> e <a href="#frases">frases que gosto</a>.</p><br>
+      <p id="pontos">Alguns dos meu pontos fortes são:</p>
+      <ul>
+        <li>Empatia</li>
+        <li><strong>Resiliência</strong></li>
+        <li>Perseverança</li>
+      </ul>
+    </div>
+    <div class="foto">
+      <img src="images/minha-foto.jpg" alt="Foto de uma pessoa muito legal" width="400px"/>
+    </div>
+  </div>
+
+  <br>
+
+  <div id="sites" class="centralizar">
+    <h3>Sites que eu gosto de acessar</h3>
+    <ul>
+      <li class="sem_marcador"><a href="https://olhardigital.com.br/" target="_blank">Olhar Digital</a></li>
+      <li class="sem_marcador"><a href="https://techcrunch.com/" target="_blank">TechCrunch</a></li>
+      <li class="sem_marcador"><a href="https://vidadesuporte.com.br/">Vida de Suporte</a></li>
+    </ul>
+  </div>
+
+  <div id="frases" class="centralizar">
+    <h3>Frases que eu gosto por ordem</h3>
+    <ol>
+      <li><em>"A sorte favorece os audazes."</em></li>
+      <li><em>"Escolha ser positivo, você tem poder sobre isso."</em></li>
+      <li><em>"Você já tentou desligar e ligar de novo?"</em></li>
+    </ol>
+  </div>
+
+</body>
+</html>
