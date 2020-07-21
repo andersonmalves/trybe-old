@@ -56,7 +56,14 @@
           document.getElementsByTagName('p')[0].innerText = 'Dev de sucesso pela Trybe';
         }
 
+        function changeColor(red, green, blue) {
+          // .main-content -> rgb(76,164,109)
+          document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb( ' + red + ', ' + green + ',' + blue + ')';
+        }
+        
         changeText();
+        changeColor(76,164,109);
+
     </script>
   </body>
 </html>
