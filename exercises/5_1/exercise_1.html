@@ -57,7 +57,6 @@
         }
 
         function changeColor(red, green, blue) {
-          // .main-content -> rgb(76,164,109)
           document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb( ' + red + ',' + green + ',' + blue + ')';
         }
 
@@ -65,9 +64,15 @@
           document.getElementsByClassName('center-content')[0].style.backgroundColor = 'rgb(255,255,255)';
         }
         
+        function correctText() {
+          document.getElementsByTagName('h1')[0].innerHTML = 'Exercício 5.1 - JavaScript';          
+        }
+
         changeText();
         changeColor(76,164,109);
         changeRedToWhite();
+        correctText();
+        changeToUppercase();
 
     </script>
   </body>
