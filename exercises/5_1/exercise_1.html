@@ -68,6 +68,11 @@
           document.getElementsByTagName('h1')[0].innerHTML = 'Exercício 5.1 - JavaScript';          
         }
 
+        function changeToUppercase() {
+          let textoAtual = document.getElementsByTagName('p')[2].innerText;
+          document.getElementsByTagName('p')[2].innerText = textoAtual.toUpperCase();
+        }
+
         changeText();
         changeColor(76,164,109);
         changeRedToWhite();
