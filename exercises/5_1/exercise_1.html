@@ -73,11 +73,23 @@
           document.getElementsByTagName('p')[2].innerText = textoAtual.toUpperCase();
         }
 
+        function tagToConsole(tag) {
+          let quantidadeElementos = document.getElementsByTagName(tag);
+          let resultado = '';
+
+          for (let index = 0; index < quantidadeElementos.length; index += 1) {
+            resultado = document.getElementsByTagName(tag)[ index ].innerHTML;
+            console.log(resultado);
+          }
+        }
+
+
         changeText();
         changeColor(76,164,109);
         changeRedToWhite();
         correctText();
         changeToUppercase();
+        tagToConsole('p');
 
     </script>
   </body>
