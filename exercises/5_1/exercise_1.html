@@ -58,11 +58,16 @@
 
         function changeColor(red, green, blue) {
           // .main-content -> rgb(76,164,109)
-          document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb( ' + red + ', ' + green + ',' + blue + ')';
+          document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb( ' + red + ',' + green + ',' + blue + ')';
+        }
+
+        function changeRedToWhite() {
+          document.getElementsByClassName('center-content')[0].style.backgroundColor = 'rgb(255,255,255)';
         }
         
         changeText();
         changeColor(76,164,109);
+        changeRedToWhite();
 
     </script>
   </body>
