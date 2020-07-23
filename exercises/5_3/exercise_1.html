@@ -19,18 +19,15 @@
  <div id="story"></div>
  
  <script>
-
-   let nome = document.querySelector('#noun').value;
-   let adjetivo = document.querySelector('#adjective').value;
-   let pessoa = document.querySelector('#person').value;
    const btn = document.querySelector('#lib-button');
-
    btn.addEventListener("click", makeMadLib)
 
    function makeMadLib() {
+    let nome = document.querySelector('#noun').value;
+    let adjetivo = document.querySelector('#adjective').value;
+    let pessoa = document.querySelector('#person').value;
     document.getElementById('story').innerHTML = nome + ' gosta de ' + adjetivo + ' igual a ' + pessoa;
    }
-  
  </script>
  </body>
 </html>
